@@ -1,5 +1,6 @@
 CREATE TABLE People (
-   id int  NOT NULL,
-   firstName varchar(50),
-   lastName varchar(50)
+   Id int  NOT NULL,
+   FirstName varchar(50),
+   LastName varchar(50),
+   CONSTRAINT People_pk PRIMARY KEY (Id)
 );
